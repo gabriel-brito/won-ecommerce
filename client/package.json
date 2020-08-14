@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint src"
   },
   "dependencies": {
     "next": "9.5.1",
@@ -14,6 +15,11 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.45",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "typescript": "^3.9.7"
   }
 }
