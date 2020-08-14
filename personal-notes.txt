@@ -1,0 +1,1 @@
+- Typescript has two different extensions: .TS (to typescript files) and .TSX to files with JSX.
