@@ -4,7 +4,6 @@ type Props = {
   title: string
 }
 
-
 export default function Home({ title = 'Tell me why' } : Props) {
   return (
     <div>
