@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "build-storybook": "build-storybook -s ./public",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "lint": "eslint src",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "start": "next start",
     "storybook": "start-storybook -s ./public -p 6006 --ci",
-    "build-storybook": "build-storybook -s ./public"
+    "test:watch": "jest --watch",
+    "test": "jest"
   },
   "dependencies": {
     "next": "9.5.1",
@@ -40,6 +41,7 @@
     "eslint-plugin-react-hooks": "^4.0.8",
     "jest": "^26.4.0",
     "jest-styled-components": "^7.0.2",
+    "plop": "^2.7.4",
     "react-is": "^16.13.1",
     "typescript": "^3.9.7"
   }
